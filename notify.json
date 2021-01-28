@@ -1,4 +1,4 @@
 {
-  "number": 11,
-  "message": "NEW UPDATE: Minor changes; Now the app is available offline!\n- For this change, dependency `connectivity` is required\n- Save fetched data to local storage for use without internet\n- Only students and teachers can see the posts\n- Add question body widget in answer page\n- Reformat code style\n- Show notification if bio is not updated\nEnjoy!"
+  "number": 12,
+  "message": "새 업데이트 커밋됨: Minor changes\n- 프로필 보기 페이지가 추가되었습니다.\n- 질문글 작성 시 전화번호도 저장됩니다.\n- 학년/반별로 시간표를 분류했습니다.\n-급식 위젯을 업데이트 했습니다.\n\nEnjoy!"
 }
