@@ -7,7 +7,7 @@ data_pd = pd.read_excel('{}/{}'.format(Location, File),
                      header=None, index_col=None, names=None)
 
 #시간표 수작업이 귀찮지만 머리쓰기도 귀찮은 휘근쨩의 무지성무논리30분코딩 우효ww시간표리더기
-
+#2021 2학기 시간표 기준
 #시간표 형식이 바뀌면 새로 만들던가 수정 필요
 #무지성 코딩이라 다시 짜는게 편할 수도 있음
 
