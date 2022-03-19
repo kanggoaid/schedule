@@ -9,6 +9,7 @@ data_pd = pd.read_excel('{}/{}'.format(Location, File),
 # 시간표 수작업도 싫고 머리쓰기도 귀찮은 휘근쨩의 무지성무논리30분코딩 시간표리더기
 # 2022 1학기 시간표 기준
 # 그냥 다시 만들자 tlqkf ㅋㅋ 하나하나 바꾸기 매우 귀찮음
+# 쓰고 json에 넣을땐 탭한번 치는게 이쁜듯
 
 h = 4
 # 행
@@ -32,7 +33,7 @@ for i in range(0, 24):
 
         else:
             if y == 1:
-                print('["' + data_pd.iloc[h, y] + '", ', end=' ')
+                print('\t["' + data_pd.iloc[h, y] + '", ', end=' ')
                 y = y + 1
 
             elif y == 7:
@@ -40,7 +41,7 @@ for i in range(0, 24):
                 y = y + 1
 
             elif y == 8:
-                print('["' + data_pd.iloc[h, y] + '", ', end=' ')
+                print('\t["' + data_pd.iloc[h, y] + '", ', end=' ')
                 y = y + 1
 
             elif y == 14:
@@ -62,7 +63,7 @@ for i in range(0, 24):
 
         else:
             if y == 15:
-                print('["' + data_pd.iloc[h, y] + '", ', end=' ')
+                print('\t["' + data_pd.iloc[h, y] + '", ', end=' ')
                 y = y + 1
 
             elif y == 20:
@@ -82,7 +83,7 @@ for i in range(0, 24):
 
         else:
             if y == 21:
-                print('["' + data_pd.iloc[h, y] + '", ', end=' ')
+                print('\t["' + data_pd.iloc[h, y] + '", ', end=' ')
                 y = y + 1
 
             elif y == 27:
@@ -90,7 +91,7 @@ for i in range(0, 24):
                 y = y + 1
 
             elif y == 28:
-                print('["' + data_pd.iloc[h, y] + '", ', end=' ')
+                print('\t["' + data_pd.iloc[h, y] + '", ', end=' ')
                 y = y + 1
 
             elif y == 34:
