@@ -7,7 +7,7 @@ data_pd = pd.read_excel('{}/{}'.format(Location, File),
                         header=None, index_col=None, names=None)
 
 # 시간표 수작업도 싫고 머리쓰기도 귀찮은 휘근쨩의 무지성무논리30분코딩 시간표리더기
-# 2022 1학기 시간표 기준
+# 2023 1학기 시간표 기준
 # 그냥 다시 만들자 tlqkf ㅋㅋ 하나하나 바꾸기 매우 귀찮음
 # 쓰고 json에 넣을땐 탭한번 치는게 이쁜듯
 
