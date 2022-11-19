@@ -3,6 +3,7 @@ import json
 
 """
 1교시에 시작해서 2교시에 끝난 뭐같은 프로그램
+아마 대체로 맞는듯..?
 """
 
 Location = 'excel'
@@ -13,6 +14,7 @@ data_pd = pd.read_excel(File, header=None, index_col=None, names=None)
 jsonOut = {}
 
 Magic = 0
+#마법
 while True:
     Magic += 1
     y = 19 * Magic - 18
